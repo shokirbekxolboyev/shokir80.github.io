@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(./img/header_bg\ 1.png);
+    width: 100%;
+    height: 630px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.logo1 button {
+    background-color: green;
+    width: 140px;
+    height: 34px;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.logo {
+    max-width: 100%;
+    color: #fff;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.logo1 {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.header__yozuv {
+    color: #fff;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 170px;
+}
+
+.header__yozuv p span {
+    font-size: 72px;
+    max-width: 100%;
+    font-style: normal;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.header__yozuv button {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #68bf3c;
+    margin-top: 40px;
+}
+
+.header__texno {
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+.yozuv p {
+    font-size: 18px;
+}
+
+.yozuv h1 {
+    color: #68BF3C;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.podpis img {
+    max-width: 100%;
+}
+
+.podpis {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.podpis p {
+    font-size: 24px;
+}
+
+.rasm img {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    max-width: 1000px;
+    justify-content: start;
+    font-size: 36px;
+    color: #68BF3C;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.main__kombo {
+    width: 100%;
+}
+
+.main__pitsakombo {
+    max-width: 332px;
+    text-align: start;
+}
+
+.main__pitsakombo p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.main__pitsakombo span {
+    font-size: 30px;
+}
+
+.main__kom p {
+    font-size: 25px;
+}
+
+.main__kombo img {
+    width: 100%;
+}
+
+.main__kom button {
+    max-width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #68BF3C;
+    margin-top: 20px;
+}
+
+.main__pitsa {
+    max-width: 1000px;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 40px;
+    margin: auto;
+    align-items: center;
+}
+
+.main__rasm img {
+    width: 100%;
+}
+
+.main__oxiri {
+    max-width: 1000px;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.main__rasm span {
+    font-size: 20px;
+}
+
+.main__rasm {
+    text-align: center;
+    margin-left: 15px;
+}
+.main__rasm p{
+    margin-top: 20px;
+}
+
+.footer__boshi{
+max-width:100%;
+height: 150px;
+    justify-content: space-between;
+   margin: auto;
+    display: flex;
+    background-color: black;
+}
+.footer__b{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.log{
+    color: #fff;
+}
+.footer__bosh{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.footer__bosh button{
+    background: transparent;
+    color: #fff;
+    max-width: 159px;
+    max-height: 22px;
+}
+@media screen and (max-width:600px) {
+    .main__oxiri {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .main__oxiri {
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .main__pitsa {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .main__pitsa {
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .header__texno {
+        grid-template-columns: auto;
+    }
+}
